@@ -1,0 +1,25 @@
+// Problème de contraste au niveau des couleurs
+
+// Contraste sur les titres des albums et l’arrière plan
+
+// Le purchase album ça doit être un cta (lien/bouton)
+
+// Le hover qui n’apporte rien, ça peut apporter des troubles de l’attention pour les tdah
+
+// Dans le code:
+
+// Il n’y a pas de niveaux de titres, sur “accessible frog” 
+
+// il n’y a pas de h1 et le titre des albums il n’y a pas de h2
+
+// Améliorer la division de la page (pour le footer par exemple)
+
+// Il n’y a pas d’attribut “alt” sur les images, ce n’est pas accessible
+// pour ceux qui ont des problèmes de visions
+
+
+// Définition:
+	
+// Footer: pied de page
+// Header: haut de page
+// Nav: menu de navigation
