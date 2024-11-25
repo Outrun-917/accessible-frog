@@ -134,24 +134,6 @@ header .name {
   margin-top: 10px;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-}
-
-/* Table */
-
-caption {
-  padding: 24px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-th,
-td {
-  padding: 4px 32px;
-}
-
 /* Footer styles */
 
 footer {
