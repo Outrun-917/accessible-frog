@@ -34,15 +34,25 @@
           <img class="photo" src="img/concert01.jpg" />
           <div class="container">
             <form class="survey">
-              <p>Who is your favorite band member:</p>
-              <input type="radio" name="res" value="John" /> John
-              <input type="radio" name="res" value="Hazzard" /> Hazzard
-              <input type="radio" name="res" value="Bob" /> Bob
-              <input type="radio" name="res" value="Sally" /> Sally
+              <div action="" method="get" class="favorite-band-member">
+                <label for="survey">Who is your favorite band member:</label>
+                <label
+                  ><input type="radio" name="res" value="John" /> John</label
+                >
+                <label
+                  ><input type="radio" name="res" value="Hazzard" />
+                  Hazzard</label
+                >
+                <label><input type="radio" name="res" value="Bob" /> Bob</label>
+                <label
+                  ><input type="radio" name="res" value="Sally" /> Sally</label
+                >
+              </div>
 
-              <p>What is your favorite album:</p>
-              <select id="albums" name="select">
-                <option value="1">Party For An Angel</option>
+              <div>
+                <label for="">What is your favorite album : </label>
+                <select name="select" id="albums">
+                  <option value="1">Party For An Angel</option>
                 <option value="2">A Day Of Old</option>
                 <option value="3">Finding My Shadow</option>
                 <option value="4">Diamond Fireworks</option>
@@ -53,7 +63,8 @@
                 <option value="9">Heroic Forever</option>
                 <option value="10">Midnight Fires</option>
                 <option value="11">Street Of The Rider</option>
-              </select>
+                </select>
+              </div>
 
               <p>What is your favorite song:</p>
               <textarea></textarea>
@@ -67,9 +78,18 @@
           <img class="photo" src="img/the_band.jpg" />
           <div class="container">
             <form class="newsletter">
-              <p>Name: <input type="text" name="textfield" /></p>
-              <p>Email: <input type="email" name="textfield" /></p>
-              <p>Retype Email: <input type="email" name="textfield" /></p>
+              <div>
+                <label for="name">Name : </label>
+                <input id="name" name="name" type="text" placeholder="Nolan Penfold">
+              </div>
+              <div>
+                <label for="email">Email : </label>
+                <input itemid="email" name="email" type="text" placeholder="example@gmail.com">
+              </div>
+              <div>
+                <label for="email-verification">Retype Email : </label>
+                <input id="email-verification" name="email-verification" type="text" placeholder="example@gmail.com">
+              </div>
               <button type="submit">Sign Up</button>
             </form>
           </div>
